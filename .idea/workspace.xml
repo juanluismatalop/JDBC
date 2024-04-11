@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acbe4e62-a6bc-489a-a827-5ca9a9c1b05c" name="Changes" comment="commit1">
+    <list default="true" id="acbe4e62-a6bc-489a-a827-5ca9a9c1b05c" name="Changes" comment="commit 11/04/24">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bd/MainDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bd/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bd/MobileDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/databases/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bd/SetUpConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/SetUpConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
   "keyToString": {
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainDb.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -68,7 +71,7 @@
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.MainDb">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JDBC" />
@@ -89,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bd.MainDb" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDb" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -113,12 +130,67 @@
       <option name="project" value="LOCAL" />
       <updated>1712750536724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 11/04/24">
+      <option name="closed" value="true" />
+      <created>1712834545508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712834545508</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit 11/04/24">
+      <option name="closed" value="true" />
+      <created>1712834592135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712834592135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="julupg" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="julupg" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit1" />
+    <MESSAGE value="commit 11/04/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 11/04/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
