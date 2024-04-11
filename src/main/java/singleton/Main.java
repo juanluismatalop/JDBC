@@ -23,7 +23,4 @@ public class Main {
 		}
 
 	}
-	public void prueba (){
-
-	}
 }
