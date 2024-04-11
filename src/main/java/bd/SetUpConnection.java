@@ -1,6 +1,8 @@
 package bd;
 
 import org.sqlite.SQLiteConfig;
+import singleton.Singleton1;
+import singleton.Singleton2;
 
 import java.io.IOException;
 import java.io.InputStream;

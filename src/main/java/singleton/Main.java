@@ -1,5 +1,7 @@
 package singleton;
-
+/*
+@author
+ */
 public class Main {
 	public static void main(String[] args) {
 		Singleton1 s1 = Singleton1.getSingleton1();
@@ -19,6 +21,9 @@ public class Main {
 		for (int i = 0; i < 10; i++ ){
 
 		}
+
+	}
+	public void prueba (){
 
 	}
 }
