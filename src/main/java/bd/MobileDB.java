@@ -52,7 +52,7 @@ public class MobileDB {
 		return mobiles;
 	}
 
-	public Mobile getMobileBySerial(String serial) throws SQLException{
+	/*public Mobile getMobileBySerial(String serial) throws SQLException{
 		String sql = "SELECT * FROM mobile WHERE serial = '" + serial + "';";
 		Statement statement = connection.createStatement();
 		ResultSet resultSet = statement.executeQuery(sql);
@@ -60,7 +60,7 @@ public class MobileDB {
 		while (resultSet.next()){
 			String model = resultSet.getString("model");
 			double price = resultSet.getDouble("price");
-			mobile = new Mobile()
+			mobile = new Mobile();
 		}
-	}
+	}*/
 }

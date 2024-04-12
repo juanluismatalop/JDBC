@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acbe4e62-a6bc-489a-a827-5ca9a9c1b05c" name="Changes" comment="commit 11/04/24">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bd/MainDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bd/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bd/MobileDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bd/dao/daoPerson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bd/dao/daoPerson/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bd/dao/daoPerson/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bd/dao/daoPerson/PersonDAOImp1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/databases/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bd/SetUpConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/SetUpConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +55,7 @@
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainDb.executor": "Run",
+    "Application.bd.dao.daoPerson.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -71,7 +72,7 @@
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDb">
+  <component name="RunManager" selected="Application.bd.dao.daoPerson.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JDBC" />
@@ -105,8 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bd.dao.daoPerson.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bd.dao.daoPerson.Main" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bd.dao.daoPerson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bd.dao.daoPerson.Main" />
         <item itemvalue="Application.MainDb" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
